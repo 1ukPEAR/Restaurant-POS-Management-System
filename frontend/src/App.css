@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Prompt:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #FFFFFF;
+    --BG-color: #E0E0E0;
+    --text-color: #000000;
+    --icon-color-1: #5B5B5B;
+    --icon-color-2: #ACACAC;
+    --button-color:#196BA2;
+    --success-color: #27ae60;
+    --warning-color: #FF742F;
+    --error-color: #EE1313;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* ฟอนต์หลัก: Prompt สำหรับไทย, Poppins สำหรับอังกฤษ */
+    font-family: 'Prompt', 'Poppins', sans-serif;
+}
+
+/* Heading */
+h0 { font-size: 64px; font-weight: 700; font-family: 'Prompt', 'Poppins', sans-serif; }
+h1 { font-size: 48px; font-weight: 700; font-family: 'Prompt', 'Poppins', sans-serif; }
+h2 { font-size: 34px; font-weight: 700; font-family: 'Prompt', 'Poppins', sans-serif; }
+h3 { font-size: 24px; font-weight: 700; font-family: 'Prompt', 'Poppins', sans-serif; }
+h4 { font-size: 20px; font-weight: 600; font-family: 'Prompt', 'Poppins', sans-serif; }
+
+/* Paragraphs */
+p  { font-size: 16px; line-height: 24px; color: var(--text-color); font-family: 'Prompt', 'Poppins', sans-serif; }
+
+/* Buttons */
+button {
+    background-color: var(--button-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+/* Text Colors */
+.text-success { color: var(--success-color); }
+.text-warning { color: var(--warning-color); }
+.text-error { color: var(--error-color); }
+
+/* Background Colors */
+.bg-primary { background-color: var(--primary-color); }
+.bg-secondary { background-color: var(--secondary-color); }
+.bg-BG { background-color: var(--BG-color); }

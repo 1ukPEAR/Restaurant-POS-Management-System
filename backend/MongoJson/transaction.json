@@ -1,0 +1,30 @@
+{
+    "transaction_id": "TX-000001",
+    "shop_id": "690e2c6f255bb1291efff500",
+    "table_id": "T-0001",
+    "username": "admin",
+    "order": [
+        {
+            "menu_id": "D-0001",
+            "menu_name": "ชาเย็นนน",
+            "amount": 2,
+            "menu_price": 35,
+            "menu_options": [
+                {
+                    "option_id": "O-0001",
+                    "option_name": "เพิ่มไข่มุก",
+                    "option_price": 10
+                }
+            ],
+            "menu_desc": "ใส่ถุง",
+            "subtotal": 90
+        }
+    ],
+    "subtotal": 90,
+    "service_charge_rate": 0.10,
+    "tax_rate": 0.07,
+    "tax_amount": 6.93,
+    "grand_total": 105.93,
+    "status": "pending",
+    "create_at": "2025-11-09T22:00:00.000Z"
+}

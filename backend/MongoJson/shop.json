@@ -1,0 +1,47 @@
+{
+    "_id": {
+        "$oid": "690f074c8efc975ce867cf7e"
+    },
+    "shop_name": "ร้านของซัน",
+    "shop_address": "เชียงใหม่",
+    "open_time": "08:00",
+    "close_time": "22:00",
+    "shop_img" : "",
+    "tax_enabled": true,
+    "tax_rate": 0.07,
+    "service_charge_enabled": true,
+    "service_charge_rate": 0.10,
+    "tables": [
+        {
+            "table_id": "T-0001",
+            "table_name": "A1",
+            "capacity": 4,
+            "status": "available"
+        }
+    ],
+    "menu_category": {
+        "food": [],
+        "drink": [
+            {
+                "menu_id": "D-0001",
+                "menu_name": "ชาเย็นนน",
+                "menu_desc": "เครื่องดื่มเย็นชื่นใจ",
+                "menu_price": 35,
+                "menu_image": "https://res.cloudinary.com/dk7u0fuzy/image/upload/v1762598869/shop_menu/jehiejdzml8pfe0ip7lh.jpg",
+                "menu_option": [
+                    {
+                        "option_id": "O-0001",
+                        "option_name": "เพิ่มไข่มุก",
+                        "option_price": 10
+                    }
+                ]
+            }
+        ],
+        "dessert": [],
+        "other": []
+    },
+    "create_at": {
+        "$date": "2025-11-08T09:03:08.781Z"
+    },
+    "__v": 0
+}

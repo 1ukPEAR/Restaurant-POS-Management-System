@@ -1,0 +1,15 @@
+{
+    "username": "admin",
+    "password": "$2b$10$YxF4RuJnBNXyJZAebIO3pe9ndK/FHAo1lVe43cc8Hp94Crpb6ebPG",
+    "role": "owner",
+    "email": "sun@gmail.com",
+    "phone": "0812345678",
+    "shop_id": {
+        "$oid": "6910ce16d6fabf08415a2ca0"
+    },
+    "isActive": true,
+    "create_at": {
+        "$date": "2025-11-09T17:23:34.967Z"
+    },
+    "__v": 0
+}
