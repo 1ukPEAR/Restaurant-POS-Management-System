@@ -8,40 +8,6 @@ The system is a web-based restaurant management platform with two main user role
 
 It provides features for managing restaurant information, menus, tables, orders, payments, billing, sales data, and user accounts through a centralized web application.
 
-## Screenshots
-
-### User Interface
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="docs/screenshots/roles/role-owner-dashboard.png" alt="Owner Dashboard">
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/roles/role-owner-order.png" alt="Owner Order">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Owner Dashboard</b></td>
-    <td align="center"><b>Order Management</b></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="docs/screenshots/roles/role-owner-tables.png" alt="Table Management">
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/roles/role-owner-menus.png" alt="Menu Management">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Table Management</b></td>
-    <td align="center"><b>Menu Management</b></td>
-  </tr>
-</table>
-
 ## Features
 
 - Login, registration, OTP verification, and password reset
@@ -72,7 +38,7 @@ Worked as a Front-End Developer and Web Designer as part of the development team
 
 - Developed the frontend using React.js and JavaScript
 - Designed and developed the user interface for the restaurant management system
-- Designed responsive layouts to support different screen sizes and usage scenarios
+- Designed responsive layouts for different screen sizes and usage scenarios
 - Connected the frontend with backend services and database-related functionality
 
 ## Project Structure
