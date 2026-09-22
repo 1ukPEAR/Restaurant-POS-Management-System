@@ -1,96 +1,96 @@
 # Restaurant POS Management System
 
-A full-stack restaurant/shop management system with an Express/MongoDB API and a React/Vite dashboard. It supports authentication, shop settings, menu management, table management, order taking, payment, billing, sales summary, and user management.
+A full-stack restaurant management and Point of Sale (POS) system designed to support daily restaurant operations, including authentication, menu management, table management, order processing, payment, billing, sales summary, and user management.
+
+## Overview
+
+The system is a web-based restaurant management platform with two main user roles: Owner and Worker.
+
+It provides features for managing restaurant information, menus, tables, orders, payments, billing, sales data, and user accounts through a centralized web application.
 
 ## Screenshots
 
-<p align="center">
-  <img src="docs/screenshots/app.png" alt="Restaurant POS app screenshot" width="800">
-  <br>
-  <img src="docs/screenshots/overview.png" alt="Project overview screenshot" width="800">
-</p>
+### User Interface
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/roles/role-owner-dashboard.png" alt="Owner Dashboard">
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/roles/role-owner-order.png" alt="Owner Order">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Owner Dashboard</b></td>
+    <td align="center"><b>Order Management</b></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/roles/role-owner-tables.png" alt="Table Management">
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/roles/role-owner-menus.png" alt="Menu Management">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Table Management</b></td>
+    <td align="center"><b>Menu Management</b></td>
+  </tr>
+</table>
 
 ## Features
 
-- Login, registration, forgot password, OTP verification, and password reset flows.
-- JWT-protected API routes.
-- Shop profile and telephone management.
-- Menu CRUD with image upload support through Cloudinary utilities.
-- Table CRUD and table-based order workflow.
-- Order creation, table order update, payment, cancellation, bill retrieval, history, and sales summary.
-- User/worker management and owner update routes.
-- Swagger UI for backend API documentation.
+- Login, registration, OTP verification, and password reset
+- JWT-protected API routes
+- Restaurant profile and telephone management
+- Menu management with image upload support
+- Table management and table-based ordering
+- Order creation, updates, payment, cancellation, and billing
+- Order history and sales summary
+- User and worker management
+- Swagger UI for backend API documentation
 
 ## Tech Stack
 
 | Layer | Technology |
 | --- | --- |
-| Frontend | React 19, Vite, React Router, Tailwind CSS, SweetAlert2, lucide-react |
-| Backend | Node.js, Express 5, Mongoose, JWT, Socket.IO, Multer, Cloudinary, Swagger |
+| Frontend | React 19, Vite, React Router |
+| Styling | Tailwind CSS |
+| Backend | Node.js, Express 5 |
 | Database | MongoDB |
+| Additional | JavaScript, JWT, Socket.IO, Multer, Cloudinary, Swagger |
+
+## My Contribution
+
+### Front-End Developer & Web Designer
+
+Worked as a Front-End Developer and Web Designer as part of the development team.
+
+- Developed the frontend using React.js and JavaScript
+- Designed and developed the user interface for the restaurant management system
+- Designed responsive layouts to support different screen sizes and usage scenarios
+- Connected the frontend with backend services and database-related functionality
 
 ## Project Structure
 
 ```text
 WebServices-Sun-Pear/
-  backend/
-    app.js
-    server.js
-    src/
-      controller/
-      db/
-      middleware/
-      model/
-      routes/
-      utils/
-    MongoJson/        # Sample/exported MongoDB JSON data
-  frontend/
-    src/
-```
-
-## Environment Variables
-
-Create `backend/.env` from `backend/.env.example`.
-
-## Run Locally
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Default local URLs:
-
-- Frontend: `http://localhost:5173`
-- Backend API: `http://localhost:3000`
-- Swagger UI: `http://localhost:3000/api-docs`
-
-## API Overview
-
-| Method/Path | Purpose |
-| --- | --- |
-| `POST /api/auth/login` | Login |
-| `POST /api/auth/register` | Register shop/user |
-| `POST /api/auth/forgot-password` | Start password reset |
-| `POST /api/auth/verify-otp` | Verify OTP |
-| `POST /api/auth/reset-password` | Reset password |
-| `/api/user` | User/profile/worker management |
-| `/api/shop` | Shop profile and telephone data |
-| `/api/menu` | Menu CRUD |
-| `/api/table` | Table CRUD |
-| `/api/order` | Order, payment, cancellation, bill, history, and sales summary |
-
-## Database Schema
-
-See `DATABASE_SCHEMA.md`. The project uses flexible MongoDB collections for `user` and `shop`, and a defined Mongoose schema for `transaction`.
-
-## GitHub Notes
-
-Before publishing, keep `node_modules/`, `.env`, hardcoded MongoDB credentials, and private sample exports out of Git.
+├── backend/
+│   ├── app.js
+│   ├── server.js
+│   ├── src/
+│   │   ├── controller/
+│   │   ├── db/
+│   │   ├── middleware/
+│   │   ├── model/
+│   │   ├── routes/
+│   │   └── utils/
+│   └── MongoJson/
+├── frontend/
+│   └── src/
+└── docs/
+    └── screenshots/
